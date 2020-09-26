@@ -1,0 +1,23 @@
+{
+    "name": "andrey9x/complex",
+    "description": "complex library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Andrey Osipov",
+            "email": "prog.qt@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Andrey9x\\": "src",
+            "Andrey9xTests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    }
+}
